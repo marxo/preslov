@@ -1,0 +1,21 @@
+{
+    "name": "marxo/preslov",
+    "description": "Transliterate Serbian from Cyrillic to Latin and vice versa.",
+    "keywords": ["localization","translit","l10n","i18n","language","translation","cyrillic","serbian"],
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Марко Кажић",
+            "email": "marko.kazic@zamphyr.com",
+            "homepage": "http://marxo.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Marxo\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.1.2"
+    }
+}
